@@ -8,7 +8,7 @@
 * [2.0、消息接口](203001-xiao-xi-jie-kou.md)
   * [2.1、消息轮询接口](203001-xiao-xi-jie-kou/213001-xiao-xi-lun-xun-jie-kou.md)
   * [2.2、消息发送接口](203001-xiao-xi-jie-kou/223001-xiao-xi-fa-song-jie-kou.md)
-  * 2.3、分页查询历史消息
+  * [2.3、分页查询历史消息](203001-xiao-xi-jie-kou/233001-fen-ye-cha-xun-li-shi-xiao-xi.md)
   * 2.4、将未读消息更新为已读消息
   * 2.5、未读消息数量
 
