@@ -13,9 +13,20 @@
 | appid | String | 接入应用CODE;目前项目使用 JH |
 | userid | String | 注册的用户id |
 | userrole | String | 用户角色；MEMBER:会员；SALER:客服销售 |
-| channel | String |  |
+| channel | String | 注册渠道；PC:电脑端；WX:微信端 |
 
 * ### 返回参数
+
+```
+{
+   "success": true,
+   "data":    {
+      "n": 1,
+      "nModified": 1,
+      "ok": 1
+   }
+}
+```
 
 
 
