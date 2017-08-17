@@ -17,6 +17,10 @@
 
 * ### 返回参数
 
+| 参数名 | 类型 | 说明 |
+| :--- | :--- | :--- |
+| success | String | true:成功；false:失败； |
+
 ```
 {
    "success": true,
