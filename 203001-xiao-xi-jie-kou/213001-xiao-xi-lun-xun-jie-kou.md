@@ -27,6 +27,7 @@ GET
 | 参数名 | 类型 | 说明 |
 | :--- | :--- | :--- |
 | success | String | true:成功；false:失败； |
+| data数据格式如下： |  |  |
 | from | String | 发送消息用户id |
 | fromarea | String | 发送消息用户地区或者IP |
 | fromrole | String | 发送消息用户角色；MEMBER:会员；SALER:客服销售 |
