@@ -1,14 +1,14 @@
-* [ ] ### 2.4、消息状态更接口
+### 2.4、消息状态更接口
 
 > ### 将未读消息更新为已读
 
 * ### 接口名称
 
 ```
-/api/im/updateUnreadP2pMessages
+接口名称/api/im/updateUnreadP2pMessages
 ```
 
-### 接口方式
+* ### 接口方式
 
 ```
 POST
