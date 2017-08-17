@@ -18,15 +18,34 @@ GET
 | :--- | :--- | :--- |
 | appid | String | 接入应用CODE;目前项目使用 JH |
 | from | String | 发起查询的用户id |
-| to | String |  |
-| fromrole |  |  |
-| lasttime | String |  |
+| to | String | 对方的用户id |
+| fromrole | String | 发起查询的用户角色；MEMBER:会员；SALER:客服销售 |
+| lasttime | String | 13位时间戳；从哪个时间点开始查询对应的消息； |
 
 * ### 返回参数
 
 | 参数名 | 类型 | 说明 |
 | :--- | :--- | :--- |
 | success | String | true:成功；false:失败； |
+| from | String | 发送消息用户id |
+| fromarea | String | 发送消息用户地区或者IP |
+| fromrole | String | 发送消息用户角色；MEMBER:会员；SALER:客服销售 |
+| f\_nickname | String | 发送消息用户昵称 |
+| f\_avatar | String | 发送消息用户头像 |
+| to | String | 接收消息用户ID |
+| t\_nickname | String | 接收消息用户昵称 |
+| t\_avatar | String | 接收消息用户头像 |
+| torole | String | 接收消息用户角色；MEMBER:会员；SALER:客服销售 |
+| content | String | 消息内容 |
+| appid | String |  |
+| type | String |  |
+| status | Number |  |
+| channel | String |  |
+| voiceLength | Number |  |
+| imageSize | Number |  |
+| sendtime | Number |  |
+| readtime | Number |  |
+| create\_at | String |  |
 
 ```
 {
