@@ -6,6 +6,9 @@
   * [1.1、用户注册接口](chapter1/113001-yong-hu-zhu-ce-jie-kou.md)
   * [1.2、获取用户状态](chapter1/123001-huo-qu-yong-hu-zhuang-tai.md)
 * [2.0、消息接口](203001-xiao-xi-jie-kou.md)
-  * 2.1、消息轮询接口
+  * [2.1、消息轮询接口](203001-xiao-xi-jie-kou/213001-xiao-xi-lun-xun-jie-kou.md)
   * [2.2、消息发送接口](203001-xiao-xi-jie-kou/223001-xiao-xi-fa-song-jie-kou.md)
+  * 2.3、分页查询历史消息
+  * 2.4、将未读消息更新为已读消息
+  * 2.5、未读消息数量
 
