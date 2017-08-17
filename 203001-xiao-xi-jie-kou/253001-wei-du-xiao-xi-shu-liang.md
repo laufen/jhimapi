@@ -1,17 +1,15 @@
-### 2.4、消息状态更接口
-
-> ### 将未读消息更新为已读
+### 2.5、未读消息数量
 
 * ### 接口名称
 
 ```
-/api/im/updateUnreadP2pMessages
+/api/im/unreadcount
 ```
 
 * ### 接口方式
 
 ```
-POST
+GET
 ```
 
 * ### 接口参数
@@ -27,19 +25,13 @@ POST
 
 | 参数名 | 类型 | 说明 |
 | :--- | :--- | :--- |
-| success | String | true:成功；false:失败； |
-| data数据格式如下：消息保存成功记录信息 |  |  |
-| nModified | String | 更新记录条数 |
-| ok | String | 更新成功或者失败；1：成功； |
+| success | boolean | true:成功；false:失败； |
+| data | int | 未读消息数量 |
 
 ```
 {
    "success": true,
-   "data":    {
-      "n": 17,
-      "nModified": 17,
-      "ok": 1
-   }
+   "data": 5
 }
 ```
 
