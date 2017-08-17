@@ -40,12 +40,12 @@ GET
 | appid | String | 接入应用CODE;目前项目使用 JH |
 | type | String | 消息类型；TEXT：文本消息；IMAGE：图片；VOICE消息：音频消息 |
 | status | Number | 消息状态；0：未读；1：已读； |
-| channel | String |  |
-| voiceLength | Number |  |
-| imageSize | Number |  |
-| sendtime | Number |  |
-| readtime | Number |  |
-| create\_at | String |  |
+| channel | String | 消息发送渠道；PC:电脑端；WX:微信端 |
+| voiceLength | Number | 如果消息类型为：VOICE：存音频时长；否则默认-1 |
+| imageSize | Number | 如果消息类型为：IMAGE，存图片大小；否则默认为-1 |
+| sendtime | Number | 13位时间戳；消息发送时间； |
+| readtime | Number | 13位时间戳；消息已读时间； |
+| create\_at | String | 日期时间显示；消息创建时间； |
 
 ```
 {
