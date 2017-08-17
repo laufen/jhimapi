@@ -6,7 +6,7 @@
 /api/im/getMsgListByPageAndUserId
 ```
 
-### 接口方式
+* ### 接口方式
 
 ```
 GET

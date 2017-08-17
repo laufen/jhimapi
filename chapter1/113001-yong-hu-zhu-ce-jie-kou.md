@@ -6,7 +6,7 @@
 /api/im/regUserInfo
 ```
 
-### 接口方式
+* ### 接口方式
 
 ```
 POST
