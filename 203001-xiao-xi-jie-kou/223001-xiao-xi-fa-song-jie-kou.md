@@ -28,6 +28,8 @@ POST
 | content | String | 消息内容 |
 | type | String | 消息类型；TEXT：文本消息；IMAGE：图片；VOICE消息：音频消息 |
 | channel | String | 消息发送渠道；PC:电脑端；WX:微信端 |
+| bustype | String | 业务对象类型；CHAT: 普通聊天；GOOD\_CHAT: 基于产品询价聊天； ORDER\_CHAT:基于订单聊天； |
+| busid | String | 如果是非普通聊天类型；存放对应业务对象ID;例如：产品ID，订单ID |
 
 * ### 返回参数
 
@@ -60,6 +62,7 @@ POST
    "success": true,
    "data":    {
       "__v": 0,
+      "busid": "34",
       "fromarea": "192.",
       "content": "ffffffffff",
       "t_avatar": "to.jpg",
@@ -69,16 +72,17 @@ POST
       "f_nickname": "LAUFEN",
       "from": "200",
       "appid": "JH",
-      "_id": "5995336a8eee10fc252f6c54",
+      "_id": "599555d9ff149c68091c8b8e",
       "readtime": -1,
-      "sendtime": 1502979050209,
-      "update_at": "2017-08-17T14:10:50.209Z",
-      "create_at": "2017-08-17T14:10:50.209Z",
+      "sendtime": 1502987865961,
+      "update_at": "2017-08-17T16:37:45.961Z",
+      "create_at": "2017-08-17T16:37:45.961Z",
       "imageSize": -1,
       "voiceLength": -1,
       "channel": "PC",
       "torole": "SALER",
       "fromrole": "MEMBER",
+      "bustype": "GOOD_CHAT",
       "type": "TEXT",
       "status": 0
    }
