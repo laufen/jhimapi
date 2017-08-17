@@ -37,9 +37,9 @@ GET
 | t\_avatar | String | 接收消息用户头像 |
 | torole | String | 接收消息用户角色；MEMBER:会员；SALER:客服销售 |
 | content | String | 消息内容 |
-| appid | String |  |
-| type | String |  |
-| status | Number |  |
+| appid | String | 接入应用CODE;目前项目使用 JH |
+| type | String | 消息类型；TEXT：文本消息；IMAGE：图片；VOICE消息：音频消息 |
+| status | Number | 消息状态；0：未读；1：已读； |
 | channel | String |  |
 | voiceLength | Number |  |
 | imageSize | Number |  |
