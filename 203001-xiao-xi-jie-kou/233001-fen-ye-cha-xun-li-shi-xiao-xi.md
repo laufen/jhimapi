@@ -49,6 +49,8 @@ GET
 | sendtime | Number | 13位时间戳；消息发送时间； |
 | readtime | Number | 13位时间戳；消息已读时间； |
 | create\_at | String | 日期时间显示；消息创建时间； |
+| bustype | String | 业务对象类型；CHAT: 普通聊天；GOOD\_CHAT: 基于产品询价聊天； ORDER\_CHAT:基于订单聊天； |
+| busid | String | 如果是非普通聊天类型；存放对应业务对象ID;例如：产品ID，订单ID |
 
 ```
 {
