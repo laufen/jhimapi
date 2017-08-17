@@ -8,13 +8,14 @@
 
 * ### 接口参数
 
-| 参数名 | 说明 |
-| :--- | :--- |
-|  |  |
+| 参数名 | 类型 | 说明 |
+| :--- | :--- | :--- |
+| appid | String | 接入应用CODE;目前项目使用 JH |
+| userid | String | 注册的用户id |
+| userrole | String | 用户角色；MEMBER:会员；SALER:客服销售 |
+| channel | String |  |
 
 * ### 返回参数
-
-
 
 
 
