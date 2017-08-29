@@ -1,16 +1,14 @@
 # 接口测试地址：
 
 ```
-http://192.168.1.52:3000/
+http://imapi.dooffe.com/
 ```
 
 # 接口发布地址：
 
 ```
-
+http://imapi.dooffe.com/
 ```
-
-
 
 
 
